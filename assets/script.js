@@ -14,7 +14,7 @@ form.addEventListener("submit", e => {
     method: 'POST',
     headers: {
       "Content-type" : 'application/json',
-      "Authorization" : 'Bearer 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'
+      "Authorization" : 'Bearer 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'
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
