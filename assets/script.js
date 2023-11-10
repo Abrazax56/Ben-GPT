@@ -33,5 +33,5 @@ form.addEventListener("submit", e => {
   })
   .catch(err => {
     alert(err);
-  }
+  });
 });
