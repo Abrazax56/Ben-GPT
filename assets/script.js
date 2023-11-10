@@ -30,5 +30,8 @@ form.addEventListener("submit", e => {
     pertanyaan.textContent = promptt.value;
     jawaban.textContent = resReplaced;
     form.reset();
-  });
+  })
+  .catch(err => {
+    alert(err);
+  }
 });
