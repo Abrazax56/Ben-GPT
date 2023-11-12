@@ -38,7 +38,21 @@
           <p class="sub2">Your Prompt : </p>
           <p class="pertanyaan p-2">...</p>
           <p class="sub2">AI Answer : </p>
-          <pre class="pertanyaan p-2 jawaban">...</pre>
+          <pre id="answer" class="pertanyaan p-2 jawaban">...</pre>
+          <button type="button" class="button_copy button p-2 d-none" data-bs-toggle="modal" data-bs-target="#alertmodal"><i class="fa fa-copy"></i> Copy Answer</button>
+          <div class="modal fade" id="alertmodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h1 class="modal-title fs-5" id="exampleModalLabel">Answer Copied Successfully</h1>
+                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+              <div class="modal-footer">
+                <button type="button" class="button p-2" data-bs-dismiss="modal">Ok</button>
+              </div>
+             </div>
+            </div>
+          </div>
         </div>
       </div>
       <p class="sub3 mt-5">© 2023 By Ahmad Beni Rusli - all right reserved</p>
